@@ -1,0 +1,17 @@
+{
+    "name": "so-php/bundle-log",
+    "description": "SOPHP Log listener. Provides a log listener for the so-php framework logger",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Jeremy Giberson",
+            "email": "jeremygiberson@gmail.com"
+        }
+    ],
+    "require": {
+        "videlalvaro/php-amqplib": "v2.1.0"
+    },
+    "autoload": {
+        "psr-4": {"SoPhp\\Bundle\\Log\\": "SoPhp\\Bundle\\Log/"}
+    }
+}
