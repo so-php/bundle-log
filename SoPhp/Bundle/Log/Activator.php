@@ -25,7 +25,7 @@ class Activator implements ActivatorInterface {
      */
     public function stop(Context $context)
     {
-        $listener->stop();
+        $this->listener->stop();
         unset($this->listener);
     }
 
