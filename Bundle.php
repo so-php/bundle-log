@@ -4,6 +4,7 @@
 namespace SoPhp\Bundle\Log;
 
 
+use SoPhp\Framework\Activator\ActivatorInterface;
 use SoPhp\Framework\Activator\Context\Context;
 use SoPhp\Framework\Bundle\ActivatorProviderInterface;
 use SoPhp\Framework\Bundle\AutoloaderProviderInterface;
